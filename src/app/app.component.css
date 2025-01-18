@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eb857a;
+    color: #333;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #eb857a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e95c4c;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #eb857a;
+  }
+  
+  div[ngIf] {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    main {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    input, select {
+      font-size: 14px;
+    }
+  }
+  
